@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { notFound } from "next/navigation";
+import { notFound, useParams } from "next/navigation";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Link from "next/link";
@@ -596,8 +596,10 @@ const projectsData: Record<string, any> = {
   }
 };
 
-export default function ProjectDetailPage({ params }: { params: { id: string } }) {
-  const project = projectsData[params.id];
+export default function ProjectDetailPage() {
+  const params = useParams();
+  const id = params.id as string;
+  const project = projectsData[id];
   const [currentImage, setCurrentImage] = useState(0);
 
   if (!project) {
