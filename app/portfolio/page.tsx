@@ -71,7 +71,7 @@ export default function PortfolioPage() {
             My Portfolio
           </h1>
           <p style={{ fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
-            Professional projects and applications I've built
+            Professional projects and applications I&apos;ve built
           </p>
         </div>
       </section>

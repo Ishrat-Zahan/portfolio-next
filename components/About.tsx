@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function About() {
   return (
     <section className="section" id="about">
@@ -7,11 +9,13 @@ export default function About() {
         <div className="row align-items-center">
           <div className="col-lg-5 mb-4 mb-lg-0">
             <div className="about-img-holder">
-              <img 
+              <Image 
                 src="/assets/imgs/ishrat-profile.jpeg" 
                 className="img-fluid" 
                 alt="Ishrat Zahan"
-                style={{ borderRadius: '12px' }}
+                width={400}
+                height={500}
+                style={{ borderRadius: '12px', width: '100%', height: 'auto' }}
               />
             </div>
           </div>
