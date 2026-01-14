@@ -6,7 +6,7 @@ export default function Blog() {
       degree: "PGD in IT",
       institution: "IsDB-BISEW IT Scholarship Program",
       year: "2023",
-      details: "Web Application Development with PHP and Frameworks (900 hours)"
+      details: "Web Application Development with PHP and Frameworks"
     },
     {
       degree: "M.Sc. in Economics",
@@ -16,13 +16,13 @@ export default function Blog() {
     },
     {
       degree: "Higher Secondary Certification",
-      institution: "Kurigram Govt School, Science",
+      institution: "Kurigram Govt Women's College, Science",
       year: "2015",
       details: "GPA: 4.50 out of 5.00"
     },
     {
       degree: "Secondary School Certification",
-      institution: "Kurigram Govt Women's College, Science",
+      institution: "Kurigram Govt Girl's High School, Science",
       year: "2013",
       details: "GPA: 4.83 out of 5.00"
     }

@@ -19,7 +19,7 @@ export default function Portfolio() {
       id: "hrm-system",
       title: "HRM System",
       category: "Enterprise System",
-      description: "Complete HRM for NGO with role-based dashboards, attendance, leave, loan, advance, and payroll management.",
+      description: "Complete HRM for Non Govt Organization with role-based dashboards, attendance, leave, loan, advance, and payroll management.",
       tech: ["Laravel", "Vue.js", "Inertia.js", "MySQL"],
       year: "2025",
       liveUrl: ""
