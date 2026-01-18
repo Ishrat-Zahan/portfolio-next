@@ -11,9 +11,15 @@ export default function Footer() {
             </p>
           </div>
           <div className="col-md-6 text-center text-md-end">
-            <a href="www.linkedin.com/in/ishratzahan09" className="social-icon" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/ishratzahan09"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+            >
               <i className="ti-linkedin"></i>
             </a>
+
             <a href="https://github.com/Ishrat-Zahan" className="social-icon" target="_blank" rel="noopener noreferrer">
               <i className="ti-github"></i>
             </a>
